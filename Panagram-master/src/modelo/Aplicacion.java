@@ -14,7 +14,9 @@ public class Aplicacion {
 
     public static void main (String [] args){
         
+        // Se solicita el ingreso del texto a evaluar
         String text=JOptionPane.showInputDialog("Digite el texto a evaluar: ");
+        
         
         if(Panagram.isValidPanagram(text)){
             JOptionPane.showMessageDialog(null, "El texto ingresado SI es un Panagram");
